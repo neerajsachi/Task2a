@@ -1,0 +1,23 @@
+POST http://localhost:4000/register
+Content-Type: application/json
+
+{
+    "username" : "Neeraj",
+    "password" : "abcd"
+}
+
+###
+
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username" : "Neeraj",
+    "password" : "abcd"
+}
+###
+POST http://localhost:4000/refresh
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJOZWVyYWoiLCJpYXQiOjE3MTI0OTgwNDMsImV4cCI6MTcxMjQ5ODIyM30.ZB75G4iZNeyjExOeqe4oIhaMmc7DFiCxodhOe-84Ntk
+###
+GET http://localhost:4000/test
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJOZWVyYWoiLCJpYXQiOjE3MTI0OTYxNTQsImV4cCI6MTcxMjQ5NjMzNH0.vg_9F3e5rZHVbgm8BLHvb_yzIb7tmgO0W4_1cpsZOpM
