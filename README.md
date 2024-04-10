@@ -3,3 +3,4 @@ The API uses JWT for authentication. To access protected endpoints, clients must
 /login: Logs in an existing user and returns an access token.
 /refresh: Refreshes the access token.
 /test: A test endpoint to check if an authorized user is accessing the resource.
+Use npm run devStart to run
